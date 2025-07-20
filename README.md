@@ -119,6 +119,8 @@ def lambda_handler(event, context):
         }
 
 ```
+
+!()[Lambda_setup.png]
 ---
 
 ## 🌐 3. Create API Gateway for Lambda
