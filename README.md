@@ -208,4 +208,5 @@ Lambda's IAM role must allow ses:SendEmail.
 
 ```
 ![](Email_output.png)
+![](Test_Email.png)
 ---
