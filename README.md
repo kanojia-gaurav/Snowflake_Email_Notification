@@ -119,8 +119,8 @@ def lambda_handler(event, context):
         }
 
 ```
+![](Lambda_setup.png)
 
-!()[Lambda_setup.png]
 ---
 
 ## 🌐 3. Create API Gateway for Lambda
@@ -134,7 +134,9 @@ def lambda_handler(event, context):
 https://<your-code-values>.execute-api.us-east-1.amazonaws.com/DEV/sendemail
 
 ---
+![](api_gateway.png)
 
+---
 ## 🔐 4. Create IAM Role for Snowflake
 
 Create an IAM role Snowflake can assume:
@@ -205,3 +207,5 @@ Lambda's IAM role must allow ses:SendEmail.
   ) AS response;
 
 ```
+![](Email_output.png)
+---
